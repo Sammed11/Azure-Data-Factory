@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfdemo17126"
+		},
+		"AzureSqlDatabase_password": {
+			"value": ""
+		},
+		"Link_Target_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "altruist17126.database.windows.net"
+		},
+		"AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "mydatabase"
+		},
+		"AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "admin1008"
+		},
+		"Link_Target_properties_typeProperties_url": {
+			"value": "https://storagealtruist.dfs.core.windows.net/"
+		}
+	}
+}
